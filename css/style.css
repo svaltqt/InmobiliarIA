@@ -100,7 +100,7 @@ section.ubicaciones {
 
 .ubicacion p {
     margin-top: 0.5rem;
-    font-weight: 500; /* Texto un poco más grueso */
+    font-weight: 700; /* Texto un poco más grueso */
     color: #444; /* Color de texto más oscuro */
 }
 
@@ -116,8 +116,9 @@ section.comentarios {
 
 .comentarios h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.8rem; /* Opcional: igual que ubicaciones */
+    margin-bottom: 0,05rem;
+    
+    font-size: 1.5rem; /* Opcional: igual que ubicaciones */
     color: #333; /* Opcional: igual que ubicaciones */
 }
 
@@ -132,6 +133,9 @@ section.comentarios {
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: white;
     /* Opcional: sombra sutil como en ubicaciones */
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -141,10 +145,17 @@ section.comentarios {
     margin-top: 1rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1.5rem;
     font-size: 0.9rem;
     color: #555;
 }
+.card-comentario .usuario img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Para que la imagen mantenga proporciones */
+}
+
 
 /* === Footer oscuro === */
 footer {
