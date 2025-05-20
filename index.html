@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InmobiliarIA</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Inmobiliar-IA</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
+<!-- Header -->
 <header>
-    <h1>Bienvenido a Mi Propiedad</h1>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">Nosotros</a>
-        <a href="contact.html">Contacto</a>
+        <a href="#">Iniciar sesión</a>
+        <a href="#">Registrarse</a>
     </nav>
+    <h1>Inmobiliar-IA</h1>
+    <input type="text" placeholder="¿Dónde te quieres quedar?" />
 </header>
 
-<main>
-    <h2>Propiedades destacadas</h2>
-    <ul>
-        <li><a href="propiedades/casa1.html">Casa en la playa</a></li>
-        <li><a href="propiedades/casa2.html">Departamento en la ciudad</a></li>
-    </ul>
-</main>
+<!-- Sección de ubicaciones -->
+<section class="ubicaciones">
+    <h2>Ubicaciones populares</h2>
+    <div class="grid-ubicaciones">
+        <!-- Ubicaciones repetidas (puedes reemplazar imagenes y nombres) -->
+        <div class="ubicacion">
+            <img src="img/ubicacion1.jpg" alt="Ubicación 1" />
+            <p>Ubicación #1</p>
+        </div>
+        <div class="ubicacion">
+            <img src="img/ubicacion2.jpg" alt="Ubicación 2" />
+            <p>Ubicación #2</p>
+        </div>
+        <div class="ubicacion">
+            <img src="img/ubicacion3.jpg" alt="Ubicación 3" />
+            <p>Ubicación #3</p>
+        </div>
+        <div class="ubicacion">
+            <img src="img/ubicacion4.jpg" alt="Ubicación 4" />
+            <p>Ubicación #4</p>
+        </div>
+        <!-- Agrega más ubicaciones si deseas -->
+    </div>
+</section>
 
+<!-- Sección de comentarios -->
+<section class="comentarios">
+    <h2>Comentarios</h2>
+    <div class="grid-comentarios">
+        <!-- Comentario 1 -->
+        <div class="card-comentario">
+            <p>“A terrific piece of praise”</p>
+            <div class="usuario">
+                <img src="img/user1.jpg" alt="Usuario" width="30" height="30" style="border-radius:50%;" />
+                <div>
+                    <div><strong>Nombre</strong></div>
+                    <div>Descripción</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comentario 2 -->
+        <div class="card-comentario">
+            <p>“A fantastic bit of feedback”</p>
+            <div class="usuario">
+                <img src="img/user2.jpg" alt="Usuario" width="30" height="30" style="border-radius:50%;" />
+                <div>
+                    <div><strong>Nombre</strong></div>
+                    <div>Descripción</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comentario 3 -->
+        <div class="card-comentario">
+            <p>“A genuinely glowing review”</p>
+            <div class="usuario">
+                <img src="img/user3.jpg" alt="Usuario" width="30" height="30" style="border-radius:50%;" />
+                <div>
+                    <div><strong>Nombre</strong></div>
+                    <div>Descripción</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Puedes copiar más bloques como estos si deseas -->
+    </div>
+</section>
+
+<!-- Footer -->
 <footer>
-    <p>&copy; 2025 Mi Propiedad</p>
+    <div>
+        <h4>Inmobiliar-IA</h4>
+        <a href="#">Dirección</a>
+        <a href="#">Teléfono</a>
+        <a href="#">Correo</a>
+    </div>
+    <div>
+        <h4>Información</h4>
+        <a href="#">Página principal</a>
+        <a href="#">Términos y condiciones</a>
+    </div>
 </footer>
+
+<!-- Scripts -->
 <script src="js/main.js"></script>
 </body>
 </html>
