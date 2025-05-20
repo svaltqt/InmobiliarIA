@@ -15,7 +15,7 @@ body {
 /* === Header con imagen de fondo === */
 header {
     background: url('../assets/medellin_landingpage.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 475px;
     color: white;
     display: flex;
     flex-direction: column;
