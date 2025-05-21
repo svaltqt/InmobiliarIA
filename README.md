@@ -27,3 +27,4 @@ graph TD
     A[Landing Page] --> B[Header con Búsqueda]
     B --> C[Sección de Ubicaciones Populares]
     B --> D[Modal de Inicio de Sesión/Registro]
+    D --> E[Perfil de usuario]
